@@ -1,0 +1,193 @@
+.brinjal p#brinjal-mrp {
+    text-decoration: line-through;
+    margin-left: 100px;
+  }
+  .brinjal p#brinjal-off{
+    background-color: #ffff00;
+    border-radius: 5px; 
+  display: inline-block; 
+  padding: 1px 4px; 
+  margin-bottom: 0%;
+  margin-top: 1%;
+    
+  }
+  .brinjal p#brinjal-price {
+    margin-left: 100px;
+  }
+
+  .container{
+    max-width: 210px;
+    max-height: 1000px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    margin-top: 200px;
+    margin-left: 250px;
+  }
+  #add-to-cart {
+    background-color: #28c85a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+  margin-left: 100px;
+    cursor: pointer;
+  }
+  
+  #add-to-cart:hover {
+    background-color: #28c85a;
+  }
+
+ 
+.image-container {
+    text-align: center; 
+}
+
+
+.tomato p#tomato-mrp {
+    text-decoration: line-through;
+    margin-left: 100px;
+  }
+  .tomato p#tomato-off{
+    background-color: #ffff00;
+    border-radius: 5px; 
+  display: inline-block; 
+  padding: 1px 4px; 
+  margin-bottom: 0%;
+  margin-top: 1%;
+    
+  }
+  .tomato p#tomato-price {
+    margin-left: 100px;
+  }
+
+  .container1{
+    max-width: 210px;
+    max-height: 1000px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    margin-top: -475px;
+    margin-left: 550px;
+  }
+  #add-to-cart {
+    background-color: #28c85a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+  margin-left: 100px;
+    cursor: pointer;
+  }
+  
+  #add-to-cart:hover {
+    background-color: #28c85a;
+  }
+
+ 
+.image-container {
+    text-align: center; 
+}
+
+
+.avarai p#avarai-mrp {
+    text-decoration: line-through;
+    margin-left: 100px;
+}
+
+.avarai p#avarai-off {
+    background-color: #ffff00;
+    border-radius: 5px; 
+    display: inline-block; 
+    padding: 1px 4px; 
+    margin-bottom: 0%;
+    margin-top: 1%;
+}
+
+.avarai p#avarai-price {
+    margin-left: 100px;
+}
+
+.container2 {
+    max-width: 210px;
+    max-height: 1000px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    margin-top: -475px;
+    margin-left: 850px;
+}
+
+#add-to-cart {
+    background-color: #28c85a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#add-to-cart:hover {
+    background-color: #28c85a;
+}
+
+.image-container {
+    text-align: center; 
+}
+
+
+
+.garlic p#garlic-mrp {
+    text-decoration: line-through;
+    margin-left: 100px;
+}
+
+.garlic p#garlic-off {
+    background-color: #ffff00;
+    border-radius: 5px; 
+    display: inline-block; 
+    padding: 1px 4px; 
+    margin-bottom: 0%;
+    margin-top: 1%;
+}
+
+.garlic p#garlic-price {
+    margin-left: 100px;
+}
+
+.container3 {
+    max-width: 210px;
+    max-height: 1000px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    margin-top: -475px;
+    margin-left: 1150px;
+}
+
+#add-to-cart {
+    background-color: #28c85a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#add-to-cart:hover {
+    background-color: #28c85a;
+}
+
+.image-container {
+    text-align: center; 
+}
