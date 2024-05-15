@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grocery Shop</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="dailyneedsveg.css">
+</head>
+<body>
+<div class="top-navbar">
+  <div class="logo">
+    <img src="logo.webp" alt="Logo" height="50px" width="auto">
+  </div>
+  <div class="search-bar">
+    <input type="text" placeholder="Search...">
+    <button id="search-btn" type="submit">Search</button>
+  </div>
+  <div class="login-btn">
+    <a id="login-link" href="#login.php">Login</a>
+  </div>
+</div>
+<div class="navbar">
+  <a href="#dailyneeds">
+    <img src="d.webp" height="90px" width="50px" alt="dailyneeds" class="nav-icon">
+    Daily Needs
+  </a>
+  <a href="#products">
+    <!-- Add more navbar links here -->
+    <img src="k.webp"height="90px" width="50px" alt="Products" class="nav-icon">
+    Kitchen Essentials
+  </a>
+  <a href="#about">
+    <img src="h.webp" height="90px" width="50px" alt="About Us" class="nav-icon">
+    Home Essentials
+  </a>
+  <a href="#contact">
+    <img src="c.webp" height="90px" width="50px" alt="Contact" class="nav-icon">
+    Cereals, Noodles<br>and Sauces
+  </a>
+  <a href="#contact">
+    <img src="s.webp" height="90px" width="50px" alt="Contact" class="nav-icon">
+    Snacks & Beverages
+  </a>
+  <a href="#contact">
+    <img src="pc.webp" height="90px" width="50px" alt="Contact" class="nav-icon">
+    Personal Care
+  </a>
+  <a href="#contact">
+    <img src="b.webp" height="90px" width="50px" alt="Contact" class="nav-icon">
+    Baby Care
+  </a>
+</div>
+<div class="content">
+  <div class="container">
+    <!-- Daily Needs Vegetables Content -->
+    <div class="brinjal">
+      <!-- Brinjal content -->
+  
+    <!-- Add more vegetable containers if needed -->
+    <p id="brinjal-off">26.7% Off</p>
+    <p id="brinjal-name">DB Brinjal(kathri)</p>
+    <div class="image-container">
+    <img src="brin.webp" width="150" height="150">
+    </div>
+    <label for="size-dropdown">Size:</label>
+    <select id="size-dropdown">
+        <option value="1kg">1 kg</option>
+        <option value="250g">250 g</option>
+        <option value="500g">500 g</option>
+    </select>
+    <p id="brinjal-mrp">MRP: Rs.75</p>
+    <p id="brinjal-price">Our Price: Rs.55</p>
+    <button id="add-to-cart">Add to Cart</button>
+</div>
+</div>
+<div class="container1">
+    <div class="tomato">
+        <p id="tomato-off">11.1% Off</p>
+        <p id="tomato-name">DB Tomato country</p>
+        <div class="image-container">
+        <img src="tomato.webp" width="150" height="120">
+
+        </div>
+        <label for="size-dropdown">Size:</label>
+        <select id="size-dropdown">
+            <option value="1kg">1 kg</option>
+            <option value="250g">250 g</option>
+            <option value="500g">500 g</option>
+        </select>
+        <p id="tomato-mrp">MRP: Rs.45</p>
+        <p id="tomato-price">Our Price: Rs.40</p>
+        <button id="add-to-cart">Add to Cart</button>
+    </div>
+    </div>
+    <div class="container2">
+        <div class="avarai">
+            <p id="avarai-off">10% Off</p>
+            <p id="avarai-name">DB Avarai </p>
+            <div class="image-container">
+                <img src="avarai.webp" width="150" height="130">
+            </div>
+            <label for="size-dropdown">Size:</label>
+            <select id="size-dropdown">
+                <option value="1kg">1 kg</option>
+                <option value="250g">250 g</option>
+                <option value="500g">500 g</option>
+            </select>
+            <p id="avarai-mrp">MRP: Rs.200</p>
+            <p id="avarai-price">Our Price: Rs.180</p>
+            <button id="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="garlic">
+            <p id="garlic-off">3% Off</p>
+            <p id="garlic-name">DB Garlic </p>
+            <div class="image-container">
+                <img src="garlic.webp" width="150" height="130">
+            </div>
+            <label for="size-dropdown">Size:</label>
+            <select id="size-dropdown">
+                <option value="1kg">1 kg</option>
+                <option value="250g">250 g</option>
+                <option value="500g">500 g</option>
+            </select>
+            <p id="garlic-mrp">MRP: Rs.330</p>
+            <p id="garlic-price">Our Price: Rs.320</p>
+            <button id="add-to-cart">Add to Cart</button>
+
+  </div>
+</div>
+
+<script>
+document.getElementById('login-link').addEventListener('click', function(event) {
+  event.preventDefault(); 
+  window.location.href = 'http://localhost/bas/login.php'; });
+</script>
+</body>
+</html>
+
+
